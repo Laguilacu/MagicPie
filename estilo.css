@@ -1,0 +1,54 @@
+/* Es una práctica común eliminar margin y padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    }
+    /* Puedo seleccionar elementos por su tipo */
+    h1 {
+    color: rgb(255, 187, 0);
+    text-align: center; font-size: 70px;
+    }
+    /* Puedo seleccionar elementos por su clase */
+    .text {
+    color: rgb(134, 76, 21);
+    font-size: 20px;
+    margin:20px;
+    text-align: center}
+    /* Puedo seleccionar elementos por su id */
+    #last_p {
+    color: rgb(179, 127, 14);
+    text-align: center;
+    font-style: bold;
+    font-size: 50px}
+    h2 {  color: rgb(170, 132, 28);
+        text-align: center;
+        font-size: 50px}
+    h3 {color: antiquewhite;
+        text-align:start;
+        justify-content: center;
+       }
+    h4 { justify-content: center;
+        color: antiquewhite;
+        text-align:center;
+        font-size: 15px }
+
+    .one{ background-image: url(images/FondoPay.webp);
+    width: 25%; 
+    height: 200px ; 
+    margin-left:  auto; 
+    margin-right: auto;
+    display: block;
+    background-repeat: no-repeat;
+}
+h3{text-align: center;}
+.columna{
+    float: left;
+    width: 33.3%;
+    padding: 70px;
+}
+.fila{
+    content:"    ";
+    clear: both;
+    display: table;
+    
+}
